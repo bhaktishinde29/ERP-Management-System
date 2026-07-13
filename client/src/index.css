@@ -1,0 +1,108 @@
+/* ==========================
+   EMPLOYEE FORM ANIMATIONS
+========================== */
+
+
+@keyframes slideUp {
+
+from{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+@keyframes float {
+
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+
+}
+
+
+
+/* Input Focus */
+
+input:focus,
+select:focus{
+
+box-shadow:
+0 0 15px rgba(221,200,179,.6);
+
+transform:translateY(-2px);
+
+}
+
+
+
+/* Button Hover */
+
+button:hover{
+
+
+transform:translateY(-3px);
+
+
+box-shadow:
+
+0 15px 30px rgba(0,0,0,.45);
+
+
+}
+
+
+
+/* Disabled Button */
+
+button:disabled{
+
+opacity:.6;
+
+cursor:not-allowed;
+
+}
+
+
+
+
+/* Responsive */
+
+
+@media(max-width:500px){
+
+
+form{
+
+width:90% !important;
+
+padding:25px !important;
+
+}
+
+
+}
