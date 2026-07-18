@@ -33,7 +33,7 @@ try{
 
 const res = await fetch(
 
-"http://localhost:5000/api/attendance/my",
+"https://erp-management-system-g9n6.onrender.com/api/attendance/my",
 
 {
 

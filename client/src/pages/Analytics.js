@@ -79,7 +79,7 @@ try{
 
 const response = await fetch(
 
-"http://localhost:5000/api/analytics"
+"https://erp-management-system-g9n6.onrender.com/api/analytics"
 
 );
 

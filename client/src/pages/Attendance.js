@@ -58,7 +58,7 @@ try{
 const empRes =
 await fetch(
 
-"http://localhost:5000/api/employees",
+"https://erp-management-system-g9n6.onrender.com/api/employees",
 
 {
 
@@ -119,7 +119,7 @@ empData
 const attRes =
 await fetch(
 
-"http://localhost:5000/api/attendance",
+"https://erp-management-system-g9n6.onrender.com/api/attendance",
 
 {
 
@@ -212,7 +212,7 @@ try{
 const res =
 await fetch(
 
-"http://localhost:5000/api/attendance",
+"https://erp-management-system-g9n6.onrender.com/api/attendance",
 
 {
 

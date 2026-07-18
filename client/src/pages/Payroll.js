@@ -105,7 +105,7 @@ empData
 const payrollRes =
 await fetch(
 
-"http://localhost:5000/api/payroll",
+"https://erp-management-system-g9n6.onrender.com/api/payroll",
 
 {
 
@@ -223,7 +223,7 @@ try{
 const res =
 await fetch(
 
-"http://localhost:5000/api/payroll/generate",
+"https://erp-management-system-g9n6.onrender.com/api/payroll/generate",
 
 {
 
@@ -316,7 +316,7 @@ try{
 const res =
 await fetch(
 
-`http://localhost:5000/api/payroll/${id}`,
+`https://erp-management-system-g9n6.onrender.com/api/payroll/${id}`,
 
 {
 

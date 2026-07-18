@@ -25,7 +25,7 @@ try{
 
 const res = await fetch(
 
-"http://localhost:5000/api/leaves",
+"https://erp-management-system-g9n6.onrender.com/api/leaves",
 
 {
 
@@ -102,7 +102,7 @@ try{
 
 const res = await fetch(
 
-`http://localhost:5000/api/leaves/${id}`,
+`https://erp-management-system-g9n6.onrender.com/api/leaves/${id}`,
 
 {
 
@@ -400,12 +400,12 @@ return matchSearch && matchFilter;
 
 
                 <td style={styles.td}>
-                  {leave.name}
+                  {leave.userId?.name || "-"}
                 </td>
 
 
                 <td style={styles.td}>
-                  {leave.email}
+                  {leave.userId?.email || "-"}
                 </td>
 
 

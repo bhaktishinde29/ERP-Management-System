@@ -43,7 +43,7 @@ try{
 
 const response = await fetch(
 
-"http://localhost:5000/api/reports",
+"https://erp-management-system-g9n6.onrender.com/api/reports",
 
 {
 
@@ -137,19 +137,19 @@ const urls={
 
 employee:
 
-"http://localhost:5000/api/reports/employee/pdf",
+"https://erp-management-system-g9n6.onrender.com/api/reports/employee/pdf",
 
 
 
 attendance:
 
-"http://localhost:5000/api/reports/attendance/pdf",
+"https://erp-management-system-g9n6.onrender.com/api/reports/attendance/pdf",
 
 
 
 payroll:
 
-"http://localhost:5000/api/reports/payroll/pdf"
+"https://erp-management-system-g9n6.onrender.com/api/reports/payroll/pdf"
 
 
 
