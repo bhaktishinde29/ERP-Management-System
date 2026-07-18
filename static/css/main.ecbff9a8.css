@@ -1,2 +1,0 @@
-@keyframes slideUp{0%{opacity:0;transform:translateY(50px)}to{opacity:1;transform:translateY(0)}}@keyframes float{0%,to{transform:translateY(0)}50%{transform:translateY(-12px)}}input:focus,select:focus{box-shadow:0 0 15px #ddc8b399;transform:translateY(-2px)}button:hover{box-shadow:0 15px 30px #00000073;transform:translateY(-3px)}button:disabled{cursor:not-allowed;opacity:.6}@media(max-width:500px){form{padding:25px!important;width:90%!important}}
-/*# sourceMappingURL=main.ecbff9a8.css.map*/
