@@ -42,24 +42,16 @@ try{
 
 const res = await fetch(
 
-"http://localhost:5000/api/dashboard/admin",
+"https://erp-management-system-g9n6.onrender.com/api/dashboard/admin",
 
 {
-
 headers:{
-
-
 Authorization:
 `Bearer ${token}`
-
-
 }
-
 }
 
 );
-
-
 
 
 const result =
