@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ERP-Management-System/static/js/main.50ef9692.js",
+    "main.js": "/ERP-Management-System/static/js/main.076ff0ca.js",
     "index.html": "/ERP-Management-System/index.html",
-    "main.50ef9692.js.map": "/ERP-Management-System/static/js/main.50ef9692.js.map"
+    "main.076ff0ca.js.map": "/ERP-Management-System/static/js/main.076ff0ca.js.map"
   },
   "entrypoints": [
-    "static/js/main.50ef9692.js"
+    "static/js/main.076ff0ca.js"
   ]
 }
