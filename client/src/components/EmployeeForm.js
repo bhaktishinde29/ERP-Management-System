@@ -860,3 +860,4 @@ fontWeight:"600"
 
 };
 
+export default EmployeeForm;

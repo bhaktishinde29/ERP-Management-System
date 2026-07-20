@@ -19,17 +19,16 @@ try{
 
 
 const {
-email,
-password
-}=req.body;
+  email,
+  password
+} = req.body;
 
-
+console.log("Email received:", email);
 
 // Find user
+const user = await User.findOne({ email });
 
-const user = await User.findOne({
-email
-});
+console.log("User found:", user);
 
 
 

@@ -36,6 +36,8 @@ password:password.trim()
 };
 
 
+console.log("Sending login data:", loginData);
+
 
 
 if(!loginData.email || !loginData.password){
